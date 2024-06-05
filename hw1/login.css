@@ -1,0 +1,144 @@
+#formDisplayLogin{
+    display: flex;
+    flex-direction: column;
+}
+
+#formDisplayLogin .usernameLabel{
+    margin-top: 40px;
+}
+
+#formDisplayLogin .username{
+    margin-top: -40px;
+}
+
+#formDisplayLogin .password{
+    margin-top: -40px;
+}
+
+
+.login_form{
+    position: fixed;
+    z-index: 1;
+    top: 30%;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(226, 218, 218);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: top;    
+}
+
+.form_exit{
+    margin-top: 15px;
+    color: #FF2828;
+    cursor: default;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 600;
+}
+
+.username{
+    margin-top: 40px;
+    border-radius: 30px;
+    border-style: none;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.password{
+    margin-top: 20px;
+    border-radius: 30px;
+    border-style: none;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    text-align: left;
+}
+
+#submit_button{
+    text-align: center;
+    border-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: #FF2828;
+    color: white;
+    height: 30px;
+    width: 70px;
+    margin-top: 30px;
+}
+
+#sign_in{
+    text-align: center;
+    border-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: #FF2828;
+    color: white;
+    height: 30px;
+    width: 70px;
+}
+
+
+#login{
+    position: absolute;
+    right: 50px;
+    background-color: #FF2828;
+    border-radius: 50px;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    border-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+#login:active{
+    color: black;
+}
+
+.hidden{
+    display: none;
+}
+
+.UserBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 1;
+    right: 15px;
+    top: 80px;
+    height: 75px;
+    width: 150px;
+    background-color: rgb(234, 226, 226);
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+
+
+.UserBox::before{
+    content: "";
+    position: absolute;
+    top: -40px; /* Adjust as needed */
+    left: 55%;
+    transform: translateX(-50%);
+    border-style: solid;
+    border-width: 20px 10px; /* Adjust the size of the pointy part */
+    border-color: transparent transparent #000000 transparent;
+}
+
+.UserButtons{
+    border-radius: 50px;
+    border-style: none;
+    background-color: #FF2828;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 530;
+}

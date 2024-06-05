@@ -1,0 +1,24 @@
+.preferito{
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: end;
+    width: 5%;
+    margin-left: 93%;
+}
+
+.hiddenText{
+    display: none;
+}
+
+#Articoli_salvati{
+    cursor: pointer;
+}
+
+#Articoli_salvati:hover{
+    text-decoration: underline;
+}
+
+#Articoli_salvati:active{
+    color: black
+}

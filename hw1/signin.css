@@ -1,0 +1,46 @@
+.signin_form{
+    position: fixed;
+    z-index: 1;
+    top: 30%;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(226, 218, 218);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;    
+}   
+
+#crea{
+    text-align: center;
+    border-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: #FF2828;
+    color: white;
+    height: 30px;
+    width: 70px;
+    margin-top: 40px;
+}
+
+#formDisplaySignin{
+    display: flex;
+    flex-direction: column;
+}
+
+#formDisplaySignin .usernameLabel{
+    margin-top: 40px;
+}
+
+#formDisplaySignin .username{
+    margin-top: -40px;
+}
+
+#formDisplaySignin .password{
+    margin-top: -40px;
+}
+
+.hidden{
+    display: none;
+}
